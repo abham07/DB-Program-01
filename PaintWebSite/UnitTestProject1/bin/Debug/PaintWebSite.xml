@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PaintWebSite</name>
+    </assembly>
+    <members>
+        <member name="T:PaintWebSite.PaintStore">
+            <summary>
+            This class holds all the backend works of the webpage
+            </summary>
+        </member>
+        <member name="M:PaintWebSite.PaintStore.RetrieveData">
+            <summary>
+            Within this method, a connection to the database is made on which queries are executed to retrieve data.
+            </summary>
+            <returns>Returns the populated table.</returns>
+        </member>
+        <member name="M:PaintWebSite.PaintStore.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Within this method is called the method that retrieves data from the database. 
+            This data is placed within dynamically created rows and sent to the ASP-table.
+            Following this the connection to the database is closed.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The instance containing the event data.</param>
+        </member>
+        <member name="F:PaintWebSite.PaintStore.PaintTable">
+            <summary>
+            PaintTable control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintWebSite", "PaintWebSite\PaintWebSite.csproj", "{3FB6C1E9-E9AE-4AF7-9D4C-65382230337A}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Docs", "Docs\Docs.shfbproj", "{67C10C92-4A70-4B60-AB0B-FEF5D1BBCD97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{76C122A5-AC3B-4AA9-A987-D5A2FDD1BDAF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{C0F209EE-D701-4552-91E9-0C17B5B201D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEBrowser", "IEBrowser\IEBrowser.csproj", "{5F102684-06A4-46AA-90E3-B22FAC0FB195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeBrowser", "ChromeBrowser\ChromeBrowser.csproj", "{BCF147DA-B54C-4994-96D9-2F4004D5EB8F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://irios.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PaintWebSite\\PaintWebSite.csproj
+		SccProjectName1 = PaintWebSite
+		SccLocalPath1 = PaintWebSite
+		SccProjectUniqueName2 = Docs\\Docs.shfbproj
+		SccProjectName2 = Docs
+		SccLocalPath2 = Docs
+		SccProjectUniqueName3 = UnitTestProject1\\UnitTestProject1.csproj
+		SccProjectName3 = UnitTestProject1
+		SccLocalPath3 = UnitTestProject1
+		SccProjectUniqueName4 = IEBrowser\\IEBrowser.csproj
+		SccProjectName4 = IEBrowser
+		SccLocalPath4 = IEBrowser
+		SccProjectUniqueName5 = ChromeBrowser\\ChromeBrowser.csproj
+		SccProjectName5 = ChromeBrowser
+		SccLocalPath5 = ChromeBrowser
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB6C1E9-E9AE-4AF7-9D4C-65382230337A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB6C1E9-E9AE-4AF7-9D4C-65382230337A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB6C1E9-E9AE-4AF7-9D4C-65382230337A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB6C1E9-E9AE-4AF7-9D4C-65382230337A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C10C92-4A70-4B60-AB0B-FEF5D1BBCD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C10C92-4A70-4B60-AB0B-FEF5D1BBCD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C10C92-4A70-4B60-AB0B-FEF5D1BBCD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C10C92-4A70-4B60-AB0B-FEF5D1BBCD97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F209EE-D701-4552-91E9-0C17B5B201D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F209EE-D701-4552-91E9-0C17B5B201D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F209EE-D701-4552-91E9-0C17B5B201D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F209EE-D701-4552-91E9-0C17B5B201D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F102684-06A4-46AA-90E3-B22FAC0FB195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F102684-06A4-46AA-90E3-B22FAC0FB195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F102684-06A4-46AA-90E3-B22FAC0FB195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F102684-06A4-46AA-90E3-B22FAC0FB195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF147DA-B54C-4994-96D9-2F4004D5EB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF147DA-B54C-4994-96D9-2F4004D5EB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF147DA-B54C-4994-96D9-2F4004D5EB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF147DA-B54C-4994-96D9-2F4004D5EB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
